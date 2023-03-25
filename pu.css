@@ -1,0 +1,79 @@
+.h1
+{
+font-style:oblique;
+font-size: 2cm;
+font-variant-ligatures: normal;
+text-align: center;
+color: rgb(255, 255, 255);
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+
+}
+
+
+#matrix
+{
+width: 360px;
+height: 360px;
+background-color: lightblue;
+border-radius: 1%;
+border: 10px solid #0c67ae;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+#matrix img   {
+
+width: 118px;
+height: 118px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 0cm;
+border-color: white;
+    
+}
+
+
+
+body{
+text-align: center;
+color: white
+;
+    background-image: url(csgo_wallpaper1_hu868707310b9e9bc8581d62d02e2625f6_6053463_1920x1080_resize_q100_lanczos.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    width: auto;
+    
+
+
+}
+
+.rame{
+ 
+
+text-align: right;
+font-size: 0.9cm;
+
+}
